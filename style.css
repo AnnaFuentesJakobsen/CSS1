@@ -7,10 +7,8 @@
 	outline: #f08 solid thick;
 }
 
-
 header {
-
-	background: linear-gradient(to top, #fff 3%, rgba(255,255,255,0.1) 15%),
+	background: linear-gradient(to top, #fff 3%, rgba(255,255,255,0.1) 8%),
 	url("img/mountain.jpg") no-repeat center /cover;
 	abackground-image: url("img/mountain.jpg");
 	background-position: center;
@@ -21,6 +19,8 @@ header {
 
 header h1 {
 	font-size: 8em;
+	color: white;
+	text-shadow: 1px 1px 5px #bdc3c7;
 	margin: 0;
 	text-align: center;
 }
@@ -29,8 +29,9 @@ header h2 {
 	text-align: left;
 	font-size: 1em;
 	margin-left: 10%;
+	color:#bdc3c7;
 }
-rgba(231, 76, 60, 1.0)
+
 footer {
 	outline: #f08 solid thick;
 }
@@ -38,34 +39,6 @@ footer {
 /* ================================= 
   Base Layout Styles
 ==================================== */
-/*.extra1 {
-	
-	background-color: rgba(231, 76, 60, .25);
-	position: absolute;
-	border: 5px solid rgba(255, 255, 255, .5);
-
-	left: 10%;
-	top: 32%;
-
-	height: 250px;
-	width: 250px;
-	transform: rotate(45deg);
-}*/
-
-/*.extra2 {
-	
-	background-color: rgba(155, 89, 182, .25);
-	position: absolute;
-	border: 10px solid rgba(255, 255, 255, .5);
-
-	left: 80%;
-	top: 40%;
-
-	height: 350px;
-	width: 350px;
-	transform: rotate(45deg);
-}*/
-
 .summary {
 	font-family: 'Dancing Script', cursive;
 	margin: -10px 10%;
@@ -86,12 +59,12 @@ footer {
 .summary p {
 	text-align: center;
 	margin: 5%;
+	color: #34495e;
 }
 
 .summary a {
 	color: #f8a;
 }
-
 
 .preamble {
 	outline: #f08 solid thick;
