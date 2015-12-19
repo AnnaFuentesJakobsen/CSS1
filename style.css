@@ -3,9 +3,6 @@
 /* ================================= 
   Base Element Styles
 ==================================== */
-.intro {
-	outline: #f08 solid thick;
-}
 body {
 	background-color: #f7f7f7;
 }
@@ -35,8 +32,13 @@ header h2 {
 }
 
 footer {
-	outline: #f08 solid thick;
+	border-top: #ecf0f1 solid;
 	margin: 2%;
+}
+
+footer a {
+	font-family: 'Dancing Script', cursive;
+	color: #f8a;
 }
 
 /* ================================= 
@@ -70,7 +72,6 @@ footer {
 }
 
 .preamble, .explanation, .participation, .benefits, .requirements {
-	outline: #f08 solid thick;
 	margin: 0 25% 0 2%;
 }
 
@@ -80,7 +81,6 @@ footer {
 }
 
 .preamble h3 {
-	outline: #f08 solid thick;
 	font-family: 'Poiret One', cursive;
 	font-size: 1.5em;
 	text-shadow: 1px 1px 1px black;
@@ -94,7 +94,6 @@ footer {
 
 
 .explanation h3 {
-	outline: #f08 solid thick;
 	font-family: 'Poiret One', cursive;
 	font-size: 1.5em;
 	text-shadow: 1px 1px 1px black;
@@ -108,7 +107,6 @@ footer {
 
  
 .participation h3 {
-	outline: #f08 solid thick;
 	font-family: 'Poiret One', cursive;
 	font-size: 1.5em;
 	text-shadow: 1px 1px 1px black;
@@ -121,7 +119,6 @@ footer {
 }
 
 .benefits h3 {
-	outline: #f08 solid thick;
 	font-family: 'Poiret One', cursive;
 	font-size: 1.5em;
 	text-shadow: 1px 1px 1px black;
@@ -142,7 +139,6 @@ footer {
 }
 
 .requirements h3 {
-	outline: #f08 solid thick;
 	font-family: 'Poiret One', cursive;
 	font-size: 1.5em;
 	text-shadow: 1px 1px 1px black;
@@ -155,8 +151,6 @@ footer {
 }
 
 .sidebar {
-	outline: #f08 solid thick;
-
 	position: absolute;
 	
 	background-color: rgba(231, 76, 60, .25);
@@ -195,15 +189,48 @@ footer {
 ==================================== */
 @media (max-width: 950px) {
 	header h1 {
-	font-size: 6em;
-	max-width: 960px;
+		font-size: 6em;
+		max-width: 960px;
 	}
 }
 
 @media (max-width: 750px) {
 	header h1 {
-	font-size: 4em;
-	max-width: 960px;
+		font-size: 4em;
+		max-width: 960px;
+	}
+	.sidebar {
+		position: absolute;
+		
+		background-color: rgba(231, 76, 60, .25);
+		border: 5px solid rgba(255, 255, 255, .5);
+	
+		left: 75%;
+		top: 620px;
+	
+		border-radius: 20px;
+		height: 500px;
+		width: 150px;
+	
+		list-style-type: none;
+	}
+	
+	.sidebar h3{
+		font-family: 'Dancing Script', cursive;
+		margin-left: 15px;
+		list-style-type: none;
+		color: #34495e;
+	}
+	
+	.sidebar ul {
+		font-family: 'Dancing Script', cursive;
+		list-style-type: none;
+		color: #34495e;
+		font-size: 10px;
+	}
+	
+	.sidebar a {
+		color: #f8a;
 	}
 }
 
