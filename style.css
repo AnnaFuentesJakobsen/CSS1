@@ -6,9 +6,12 @@
 .intro {
 	outline: #f08 solid thick;
 }
+body {
+	background-color: #f7f7f7;
+}
 
 header {
-	background: linear-gradient(to top, #fff 3%, rgba(255,255,255,0.1) 8%),
+	background: linear-gradient(to top, #f7f7f7 3%, rgba(255,255,255,0.1) 8%),
 	url("img/mountain.jpg") no-repeat center /cover;
 	background-position: center;
 	font-family: 'Poiret One', cursive;
@@ -69,6 +72,11 @@ footer {
 .preamble, .explanation, .participation, .benefits, .requirements {
 	outline: #f08 solid thick;
 	margin: 0 25% 0 2%;
+}
+
+.preamble a, .explanation a, .participation a, .benefits a, .requirements a {
+	color: #f8a;
+	font-family: 'Dancing Script', cursive;
 }
 
 .preamble h3 {
