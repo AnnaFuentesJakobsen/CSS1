@@ -10,7 +10,6 @@
 header {
 	background: linear-gradient(to top, #fff 3%, rgba(255,255,255,0.1) 8%),
 	url("img/mountain.jpg") no-repeat center /cover;
-	abackground-image: url("img/mountain.jpg");
 	background-position: center;
 	font-family: 'Poiret One', cursive;
 	height: 600px;
@@ -34,6 +33,7 @@ header h2 {
 
 footer {
 	outline: #f08 solid thick;
+	display: block;
 }
 
 /* ================================= 
@@ -49,10 +49,10 @@ footer {
 	border: 5px solid rgba(255, 255, 255, .5);
 
 	left: 4%;
-	top: 30%;
+	top: 220px;
 	
-	border-radius: 10%;
-	height: 250px;
+	border-radius: 20px;
+	height: 150px;
 	width: 250px;
 }
 
@@ -66,34 +66,112 @@ footer {
 	color: #f8a;
 }
 
-.preamble {
+.preamble, .explanation, .participation, .benefits, .requirements {
 	outline: #f08 solid thick;
+	margin: 0 25% 0 2%;
 }
 
-.explanation {
+.preamble h3 {
 	outline: #f08 solid thick;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px black;
+	margin: 20px 0 0 0;
 }
 
-.participation {
-	outline: #f08 solid thick;
+.preamble p {
+	font-family: 'Poiret One', cursive;
+	margin: 10px 0;
 }
 
-.benefits {
+
+.explanation h3 {
 	outline: #f08 solid thick;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px black;
+	margin: 20px 0 0 0;
 }
 
-.requirements {
+.explanation p {
+	font-family: 'Poiret One', cursive;
+	margin: 10px 0;
+}
+
+ 
+.participation h3 {
 	outline: #f08 solid thick;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px black;
+	margin: 20px 0 0 0;
+}
+
+.participation p {
+	font-family: 'Poiret One', cursive;
+	margin: 10px 0;
+}
+
+.benefits h3 {
+	outline: #f08 solid thick;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px black;
+	margin: 20px 0 0 0;
+}
+
+.benefits p {
+	font-family: 'Poiret One', cursive;
+	margin: 10px 0;
+}
+
+.requirements h3 {
+	outline: #f08 solid thick;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px black;
+	margin: 20px 0 0 0;
+}
+
+.requirements p {
+	font-family: 'Poiret One', cursive;
+	margin: 10px 0;
 }
 
 .sidebar {
 	outline: #f08 solid thick;
+
+	position: absolute;
+	
+	background-color: rgba(231, 76, 60, .25);
+	border: 5px solid rgba(255, 255, 255, .5);
+
+	left: 77%;
+	top: 620px;
+
+	border-radius: 20px;
+	height: 500px;
+	width: 290px;
+
+	list-style-type: none;
 }
 
-.design-archives, .zen-resources {
-	outline: #f08 solid thick;
+.sidebar h3{
+	font-family: 'Dancing Script', cursive;
+	margin-left: 15px;
+	list-style-type: none;
+	color: #34495e;
 }
 
+.sidebar ul {
+	font-family: 'Dancing Script', cursive;
+	list-style-type: none;
+	color: #34495e;
+}
+
+.sidebar a {
+	color: #f8a;
+}
 
 /* ================================= 
   Media
