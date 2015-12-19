@@ -33,7 +33,7 @@ header h2 {
 
 footer {
 	outline: #f08 solid thick;
-	display: block;
+	margin: 2%;
 }
 
 /* ================================= 
@@ -125,6 +125,14 @@ footer {
 	margin: 10px 0;
 }
 
+.requirements::before {
+	
+	content: url("img/ice.jpg");
+	position: absolute;
+	left: 79%;
+	top: 1200px;
+}
+
 .requirements h3 {
 	outline: #f08 solid thick;
 	font-family: 'Poiret One', cursive;
@@ -172,6 +180,7 @@ footer {
 .sidebar a {
 	color: #f8a;
 }
+
 
 /* ================================= 
   Media
